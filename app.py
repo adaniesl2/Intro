@@ -18,10 +18,13 @@ col1, col2 = st.columns(2)
 
 with col1: 
   st.subheader('Esta es la primera columna')
-  st.write('Las interfaces multimodales mejoran la experiencia del usuario')
-  answer = st.checkbox('Estoy de acuerdo')
-  if answer:
+  st.write('Cuál es el peor tipo para counter a Flygon?')
+  answer = st.checkbox('Hielo')
+  answer = st.checkbox('Dragón')
+  if answer == 'Hielo':
     st.write('Correcto!')
+  if answer == 'Dragón':
+    st.write('Incorrecto!')
 
 with col2: 
   st.subheader('Esta es la segunda columna')
