@@ -43,7 +43,7 @@ else:
    st.write('No has presionado el botón')
 
 st.subheader('Selectbox')
-in_mod == st.selectbox(
+in_mod = st.selectbox(
   'Selecciona la modalidad',
   ('Audio', 'Visual', 'Háptico'),
 )
