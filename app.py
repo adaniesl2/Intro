@@ -10,6 +10,6 @@ image = Image.open('Flygon.jpg')
 st.image(image, caption = 'Flygon')
 
 text = st.text_input('Cuál es tu favorito?', 'Mi pokémon favorito es...')
-st.write(text,+'?' 'Que buen gusto.')
+st.write(text+'?', 'Que buen gusto.')
 
 st.subheader(' ')
