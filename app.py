@@ -18,7 +18,7 @@ col1, col2 = st.columns(2)
 
 with col1: 
   st.subheader('Esta es la primera columna')
-  st.write('Cuál es el peor tipo para counter a Flygon?')
+  st.write('Cuál es el mejor tipo para counter a Flygon?')
   answer = st.checkbox('Ice')
   answer2 = st.checkbox('Dragon')
   if answer:
@@ -32,6 +32,6 @@ with col2:
   if modo == 'Electric':
     st.write('Cuídate de los tipo Ground.')
   if modo == 'Dragon':
-    st.write('Cuidado con los tipo Ice, Dragon y Fairy')
+    st.write('Cuidado con los tipo Ice, Dragon y Fairy.')
   if modo == 'Ground':
-    st.write('Cuidado con los tipo Water, Grass o Ice')
+    st.write('Cuidado con los tipo Water, Grass o Ice.')
