@@ -38,6 +38,6 @@ with col2:
 
 st.subheader('Uso de botones')
 if st.button('Presiona el botón):
-  st.write('Gracias por presionar')
+   st.write('Gracias por presionar')
 else:
-  st.write('No has presionado el botón')
+   st.write('No has presionado el botón')
