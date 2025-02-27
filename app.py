@@ -20,10 +20,10 @@ with col1:
   st.subheader('Esta es la primera columna')
   st.write('Cuál es el peor tipo para counter a Flygon?')
   answer = st.checkbox('Hielo')
-  answer = st.checkbox('Dragón')
-  if answer == 'Hielo':
+  answer2 = st.checkbox('Dragón')
+  if answer:
     st.write('Correcto!')
-  if answer == 'Dragón':
+  if answer2:
     st.write('Incorrecto!')
 
 with col2: 
