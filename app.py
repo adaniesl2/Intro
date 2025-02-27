@@ -14,7 +14,7 @@ st.write(text+'?', 'Que buen gusto.')
 
 st.subheader('Ahora usemos 2 columnas')
 
-col1 col2 = st.columns(2)
+col1, col2 = st.columns(2)
 
 with col1: 
   st.subheader('Esta es la primera columna')
