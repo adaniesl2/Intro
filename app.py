@@ -35,3 +35,9 @@ with col2:
     st.write('Cuidado con los tipo Ice, Dragon y Fairy.')
   if modo == 'Ground':
     st.write('Cuidado con los tipo Water, Grass o Ice.')
+
+st.subheader('Uso de botones')
+if st.button('Presiona el botón):
+  st.write('Gracias por presionar')
+else:
+  st.write('No has presionado el botón')
